@@ -1,0 +1,12 @@
+{
+    "name": "xiaozi/btorrent",
+    "description": "torrent meta format",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaozi",
+            "email": "245565986@qq.com"
+        }
+    ],
+    "require": {}
+}
