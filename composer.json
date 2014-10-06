@@ -10,9 +10,10 @@
     ],
 	"autoload": {
 		"psr-4": {
-			"BTorrent\\": "src/"
+			"BTorrent\\": "src/BTorrent/"
 		}
 	},
     "require": {
+
     }
 }
