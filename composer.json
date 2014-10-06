@@ -8,5 +8,7 @@
             "email": "245565986@qq.com"
         }
     ],
-    "require": {}
+    "require": {
+        "rych/bencode": "dev-develop"
+    }
 }
