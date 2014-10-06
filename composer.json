@@ -8,6 +8,11 @@
             "email": "245565986@qq.com"
         }
     ],
+	"autoload": {
+		"psr-4": {
+			"BTorrent\\": "src/"
+		}
+	},
     "require": {
     }
 }
