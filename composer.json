@@ -9,6 +9,5 @@
         }
     ],
     "require": {
-        "rych/bencode": "dev-develop"
     }
 }
