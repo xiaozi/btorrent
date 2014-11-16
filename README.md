@@ -1,6 +1,14 @@
-## 生成torrent文件树的类
+## introduce
 
-example
+a lib for generate file tree for torrent file
+
+## installation
+
+```
+composer require xiaozi/btorrent
+```
+
+## example
 
 ```php
 <?php
@@ -22,3 +30,4 @@ $tree = new Tree($arr);
 // var_dump($tree);
 echo json_encode($tree);
 ```
+
