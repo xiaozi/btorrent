@@ -10,6 +10,10 @@ composer require xiaozi/btorrent
 
 ## example
 
+use like this
+
+--------------
+
 ```php
 <?php
 
