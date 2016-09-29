@@ -16,7 +16,8 @@ class Tree implements \JsonSerializable {
 				}
 				$branch = &$d;
 			}
-			$branch->addFile(new File($filename, $item['length']));
+			$file = new File($filename, $item['length']);
+			$branch->addFile($file);
 		}
 		$this->struct = $tree;
 	}
