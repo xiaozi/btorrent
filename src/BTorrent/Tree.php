@@ -9,10 +9,11 @@ class Tree implements \JsonSerializable {
 		foreach ($arr as $item) {
 			$branch = &$tree;
 			$filename = array_pop($item['path']);
-			foreach ($item['path'] as $k => $dir) {
-				$d = &$branch->findDir($dir);
+			foreach ($item['path'] as $k => $dirname) {
+				$d = &$branch->findDir($dirname);
 				if (!$d) {
-					$d = &$branch->addDir(new Dir($dir));
+					$dir = new Dir($dirname);
+					$d = &$branch->addDir();
 				}
 				$branch = &$d;
 			}
